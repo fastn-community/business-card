@@ -1,4 +1,4 @@
--- import: fastn-community.github.io/business-card-1
+-- import: fastn-community.github.io/business-card
 -- import: tf
 -- import: cb
 
@@ -13,11 +13,11 @@
 
 
 -- component home-card:
-string package-name: business-card-1
-string package-full-name: fastn-community.github.io/business-card-1
-optional string license-url: https://github.com/fastn-community/business-card-1/blob/main/LICENSE
-string github: https://github.com/fastn-community/business-card-1/
-module category: fastn-community.github.io/business-card-1
+string package-name: business-card
+string package-full-name: fastn-community.github.io/business-card
+optional string license-url: https://github.com/fastn-community/business-card/blob/main/LICENSE
+string github: https://github.com/fastn-community/business-card/
+module category: fastn-community.github.io/business-card
 
 
 -- site-doc.doc-home: $concat2(a = fastn-package:, b = $home-card.package-name)
@@ -75,11 +75,11 @@ $concat-with-line(a = -- import:, b = $home-card.package-full-name, c = as b-car
 
 
 -- component detail-doc:
-string package-name: business-card-1
-string package-full-name: fastn-community.github.io/business-card-1
-optional string license-url: https://github.com/fastn-community/business-card-1/blob/main/LICENSE
-string github: https://github.com/fastn-community/business-card-1/
-module category: fastn-community.github.io/business-card-1
+string package-name: business-card
+string package-full-name: fastn-community.github.io/business-card
+optional string license-url: https://github.com/fastn-community/business-card/blob/main/LICENSE
+string github: https://github.com/fastn-community/business-card/
+module category: fastn-community.github.io/business-card
 
 
 -- site-doc.doc-home: Documentation - Card
