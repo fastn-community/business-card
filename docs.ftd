@@ -81,6 +81,7 @@ string package-full-name: fastn-community.github.io/business-card
 optional string license-url: https://github.com/fastn-community/business-card/blob/main/LICENSE
 string github: https://github.com/fastn-community/business-card/
 module category: fastn-community.github.io/business-card
+ftd.image-src logo: $assets.files.assets.ipsum-logo.svg
 
 
 -- site-doc.doc-home: Documentation - Card
@@ -111,7 +112,7 @@ $concat-with-line(a = -- import:, b = $detail-doc.package-full-name, c = as b-ca
 -- detail-doc.category.card: John Doe
 title: Software Developer
 company-name: John Doe Pvt. Ltd.
-logo: $assets.files.assets.ipsum-logo.svg
+logo: $detail-doc.logo
 contact-1: +91 12345 99999
 contact-2: +91 12345 88888
 email: john@johndoe.com
@@ -193,7 +194,7 @@ $concat-with-line(a = -- import:, b = $detail-doc.package-full-name, c = as b-ca
 -- detail-doc.category.card: John Doe
 title: Software Developer
 company-name: John Doe Pvt. Ltd.
-logo: $assets.files.assets.ipsum-logo.svg
+logo: $detail-doc.logo
 contact-1: +91 12345 99999
 email: john@johndoe.com
 website: www.johndoe.com
@@ -212,7 +213,7 @@ $concat-with-line(a = -- import:, b = $detail-doc.package-full-name, c = as b-ca
 -- detail-doc.category.card: John Doe
 title: Software Developer
 company-name: John Doe Pvt. Ltd.
-logo: $assets.files.assets.ipsum-logo.svg
+logo: $detail-doc.logo
 email: john@johndoe.com
 website: www.johndoe.com
 address: 123, Block No. A-123, Times Square, Bangalore - 123456
@@ -231,7 +232,7 @@ $concat-with-line(a = -- import:, b = $detail-doc.package-full-name, c = as b-ca
 -- detail-doc.category.card: John Doe
 title: Software Developer
 company-name: John Doe Pvt. Ltd.
-logo: $assets.files.assets.ipsum-logo.svg
+logo: $detail-doc.logo
 contact-1: +91 12345 99999
 contact-2: +91 12345 88888
 website: www.johndoe.com
@@ -249,7 +250,7 @@ $concat-with-line(a = -- import:, b = $detail-doc.package-full-name, c = as b-ca
 -- detail-doc.category.card: John Doe
 title: Software Developer
 company-name: John Doe Pvt. Ltd.
-logo: $assets.files.assets.ipsum-logo.svg
+logo: $detail-doc.logo
 contact-1: +91 12345 99999
 contact-2: +91 12345 88888
 email: john@johndoe.com
@@ -268,7 +269,7 @@ $concat-with-line(a = -- import:, b = $detail-doc.package-full-name, c = as b-ca
 -- detail-doc.category.card: John Doe
 title: Software Developer
 company-name: John Doe Pvt. Ltd.
-logo: $assets.files.assets.ipsum-logo.svg
+logo: $detail-doc.logo
 contact-1: +91 12345 99999
 contact-2: +91 12345 88888
 email: john@johndoe.com
