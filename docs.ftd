@@ -18,6 +18,7 @@ string package-full-name: fastn-community.github.io/business-card
 optional string license-url: https://github.com/fastn-community/business-card/blob/main/LICENSE
 string github: https://github.com/fastn-community/business-card/
 module category: fastn-community.github.io/business-card
+ftd.image-src logo: $assets.files.assets.ipsum-logo.svg
 
 
 -- site-doc.doc-home: $concat2(a = fastn-package:, b = $home-card.package-name)
@@ -32,7 +33,7 @@ github-url: $home-card.github
 -- home-card.category.card: John Doe
 title: Software Developer
 company-name: John Doe Pvt. Ltd.
-logo: $assets.files.assets.ipsum-logo.svg
+logo: $home-card.logo
 contact-1: +91 12345 99999
 contact-2: +91 12345 88888
 email: john@johndoe.com
